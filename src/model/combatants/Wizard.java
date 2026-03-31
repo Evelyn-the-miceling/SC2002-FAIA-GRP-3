@@ -13,7 +13,7 @@ public class Wizard extends Player {
 
     public void resetAttackBonus(){
         this.bonusAttack = 0;
-        this.setAttack(35);
+        this.setAttack(50);
     }
 
     public void useSpecialSkill(Combatant[] targets){
