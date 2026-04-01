@@ -1,11 +1,12 @@
 import java.util.Scanner;
 
 public class CLI_V1 {
+    Scanner sc = new Scanner(System.in);
 
     public void print(String a){
          System.out.println(a);
     }
-    public void begin(){
+    public int begin(){
         print("==================================");
         print("WELCOME TO TURN-BASED COMBAT ARENA");
         print("==================================");
@@ -18,6 +19,9 @@ public class CLI_V1 {
         print("   STATS: HP: 200, ATK: 50, DEF: 10, SPD: 20");
         print("   ABILITY: Arcane Blast: Enemy defeated add atk");
         print("Enter choice (1-2):");
-
+        int input = sc.nextInt();
+        return input;
     }
 }
+// need to pass stats to backend, eg. status, items etc
+//Use boundary to get data and send data, functions to return something, get input from user.
