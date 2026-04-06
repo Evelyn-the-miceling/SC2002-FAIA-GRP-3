@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CLI_V1 {
+public class Loading {
     Scanner sc = new Scanner(System.in);
 
     public void print(String a){
